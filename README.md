@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @EduardF1
-- 👀 I’m interested in Data Science and Full Stack Web Development
-- 🌱 I’m currently learning ReactJS, Python (ML & DS)
+- 👀 I’m interested in Full Stack Web Development
 - 💞️ I’m looking to collaborate on any project that involves web development 
 - 📫 How to reach me: fischer_eduard@yahoo.com
