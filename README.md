@@ -21,4 +21,4 @@ I build stable, business-critical systems. Currently at **Netcompany**, working 
 
 ---
 
-This GitHub mostly captures **learning in public** — courses, side projects, weekend experiments. The proprietary work I'm proudest of (KOMBIT VALG, SitaWare, Greenbyte's SaaS + Flutter app, Boozt's e-commerce backend) lives as case studies on [the portfolio](https://github.com/EduardF1/portfolio).
+This GitHub mostly captures **learning in public** — courses, side projects, weekend experiments. The proprietary work I'm proudest of (KOMBIT VALG, SitaWare, Greenbyte's SaaS + Flutter app, Boozt's e-commerce backend) lives as case studies on [eduardfischer.dev](https://eduardfischer.dev).
