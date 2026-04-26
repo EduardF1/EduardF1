@@ -17,7 +17,7 @@ I build stable, business-critical systems. Currently at **Netcompany**, working 
 - 🌐 [**EduardFischer.dev**](https://eduardfischer.dev) — portfolio, writing, recommendations
 - 💼 [LinkedIn](https://www.linkedin.com/in/eduard-fischer-szava/)
 - ✉️ fischer_eduard@yahoo.com
-- 📍 Aarhus, Denmark — open to new opportunities
+- 📍 Aarhus, Denmark
 
 ---
 
