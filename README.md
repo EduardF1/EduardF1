@@ -1,3 +1,5 @@
+[![Portfolio](https://img.shields.io/badge/Portfolio-eduardfischer.dev-B85C3A?style=for-the-badge&logo=vercel&logoColor=white)](https://eduardfischer.dev)
+
 ## Eduard Fischer-Szava
 
 Software Engineer & IT Consultant · Aarhus, Denmark
