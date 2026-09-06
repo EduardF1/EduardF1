@@ -20,7 +20,7 @@ Software engineer with five years on Danish production systems — from the nati
 
 I contribute upstream where I use the tool: **140 PRs sent — 40 merged, 36 open, the rest closed or superseded.** Active upstreams: angular/components · dotnet/aspnetcore · dotnet/sdk · vercel/next.js · TanStack/router · openapi-ts/openapi-typescript · microsoft/TypeScript-Website · shadcn-ui/ui · pmndrs · unjs (ofetch, magic-regexp) · ladjs/frisbee · samuelcolvin/dirty-equals · drizzle-team · charmbracelet · marlinjai.
 
-> The forks below are contribution surfaces — most carry an upstream PR; the rest are study and reference forks.
+> The forks below are contribution surfaces — 59 of them carry an upstream PR; the rest are study and reference forks.
 
 ### Working with
 
