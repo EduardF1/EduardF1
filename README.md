@@ -4,7 +4,7 @@
 
 Software Engineer & IT Consultant · Aarhus, Denmark
 
-I build stable, business-critical systems. Currently at **Netcompany**, working on **KOMBIT VALG** — Denmark's administrative election platform. Previously at Greenbyte (renewable-energy SaaS, .NET + React + Flutter), Boozt (Symfony e-commerce), and Systematic (NATO-grade SitaWare suite).
+I build stable, business-critical systems. Currently at **Mjølner Informatics**, placed at **Norlys** building Mit Norlys Selfservice (Aarhus). Previously at Netcompany (KOMBIT VALG — Denmark's administrative election platform), Greenbyte (renewable-energy SaaS, .NET + React + Flutter), Boozt (Symfony e-commerce), and Systematic (NATO-grade SitaWare suite).
 
 ---
 
