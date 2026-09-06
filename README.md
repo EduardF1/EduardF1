@@ -18,9 +18,9 @@ Software engineer with five years on Danish production systems — from the nati
 
 ### Open-source contributions
 
-I contribute upstream where I use the tool: **140 PRs sent — 39 merged, 37 open, the rest closed or superseded.** Active upstreams: angular/components · dotnet/aspnetcore · dotnet/sdk · vercel/next.js · TanStack/router · openapi-ts/openapi-typescript · microsoft/TypeScript-Website · shadcn-ui/ui · pmndrs · unjs (ofetch, magic-regexp) · ladjs/frisbee · samuelcolvin/dirty-equals · drizzle-team · charmbracelet · marlinjai.
+I contribute upstream where I use the tool: **140 PRs sent — 40 merged, 36 open, the rest closed or superseded.** Active upstreams: angular/components · dotnet/aspnetcore · dotnet/sdk · vercel/next.js · TanStack/router · openapi-ts/openapi-typescript · microsoft/TypeScript-Website · shadcn-ui/ui · pmndrs · unjs (ofetch, magic-regexp) · ladjs/frisbee · samuelcolvin/dirty-equals · drizzle-team · charmbracelet · marlinjai.
 
-> The forks below are contribution surfaces — every fork here has an upstream PR behind it.
+> The forks below are contribution surfaces — most carry an upstream PR; the rest are study and reference forks.
 
 ### Working with
 
@@ -41,5 +41,5 @@ I contribute upstream where I use the tool: **140 PRs sent — 39 merged, 37 ope
 
 - [eduardfischer.dev](https://eduardfischer.dev)
 - [LinkedIn](https://www.linkedin.com/in/eduard-fischer-szava/)
-- fischer_Eduard@yahoo.com
+- fischer_eduard@yahoo.com
 - Aarhus, Denmark
