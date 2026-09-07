@@ -4,23 +4,23 @@
 
 Software Engineer · Aarhus, Denmark
 
-Software engineer with five years on Danish production systems — from the national election platform at Netcompany to Norlys's customer self-service platform. MSc in Technology-Based Business Development, Aarhus University.
+Software engineer with five years on Danish production systems, from the national election platform at Netcompany to Norlys's customer self-service platform. MSc in Technology-Based Business Development, Aarhus University.
 
-**Currently at Mjølner Informatics**, placed at **Norlys** building Mit Norlys Selfservice (Aarhus). Previously: Netcompany (KOMBIT VALG — Denmark's administrative election platform), Greenbyte (renewable-energy SaaS), Boozt (Symfony e-commerce), Systematic (mission-critical SitaWare).
+**Currently at Mjølner Informatics**, placed at **Norlys** building Mit Norlys Selfservice (Aarhus). Previously: Netcompany (KOMBIT VALG, Denmark's administrative election platform), Greenbyte (renewable-energy SaaS), Boozt (Symfony e-commerce), Systematic (mission-critical SitaWare).
 
 ---
 
 ### My projects (own IP)
 
-- **[eduardfischer.dev](https://eduardfischer.dev)** — case studies, writing, and the full story of the proprietary work (KOMBIT VALG, SitaWare, Greenbyte, Boozt).
-- **The AI estate** — a sixteen-service platform (models, retrieval, agents) held to production standards and measured before trusted; lives in private repositories, described on the portfolio site, walk-throughs offered.
+- **[eduardfischer.dev](https://eduardfischer.dev)**: case studies, writing, and the full story of the proprietary work (KOMBIT VALG, SitaWare, Greenbyte, Boozt).
+- **The AI estate**: a sixteen-service platform (models, retrieval, agents) held to production standards and measured before trusted; lives in private repositories, described on the portfolio site, walk-throughs offered.
 - **Public experiments** (learning in public): Symfony-api-and-react · cars-app-backend · cars-app-client · nginx-stack-demo · Selenium-tutorial · note-app and other projects from my studies.
 
 ### Open-source contributions
 
-I contribute upstream where I use the tool: **140 PRs sent — 40 merged, 36 open, the rest closed or superseded.** Active upstreams: angular/components · dotnet/aspnetcore · dotnet/sdk · vercel/next.js · TanStack/router · openapi-ts/openapi-typescript · microsoft/TypeScript-Website · shadcn-ui/ui · pmndrs · unjs (ofetch, magic-regexp) · ladjs/frisbee · samuelcolvin/dirty-equals · drizzle-team · charmbracelet · marlinjai.
+I contribute upstream where I use the tool: **140 PRs sent: 40 merged, 36 open, the rest closed or superseded.** Active upstreams: angular/components · dotnet/aspnetcore · dotnet/sdk · vercel/next.js · TanStack/router · openapi-ts/openapi-typescript · microsoft/TypeScript-Website · shadcn-ui/ui · pmndrs · unjs (ofetch, magic-regexp) · ladjs/frisbee · samuelcolvin/dirty-equals · drizzle-team · charmbracelet · marlinjai.
 
-> The forks below are contribution surfaces — 59 of them carry an upstream PR; the rest are study and reference forks.
+> The forks below are contribution surfaces, and 59 of them carry an upstream PR; the rest are study and reference forks.
 
 ### Working with
 
