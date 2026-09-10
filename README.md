@@ -18,7 +18,8 @@ Public and open for anyone:
 - **OSS contributions** - 45 merged pull requests across 32 upstream projects, among them angular,
   eslint, jest, vite, freeCodeCamp, dotnet/aspnetcore, dotnet/sdk, fastify, hono, react-hook-form
   and kobalte. The forks here are contribution evidence.
-- **VIA Bachelor work** - repositories tagged `via-bachelor`, kept as their own bucket.
+- **University coursework** - two public repositories from the VIA years, `viauc-dai1-s22`
+  and `Android_Exam_Practice`. The rest of the `via-bachelor` bucket is private.
 
 ## What I care about
 
