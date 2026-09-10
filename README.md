@@ -26,3 +26,12 @@ Public and open for anyone:
 Measured work over vibes. Every change I ship carries a test record; every claim of done is
 peer-reviewed before it counts. I am currently open to senior full-stack and platform roles in
 the Aarhus area.
+## GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats-deploy-eduardf1s-projects.vercel.app/api?username=EduardF1&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats-deploy-eduardf1s-projects.vercel.app/api/top-langs/?username=EduardF1&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" height="165" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=EduardF1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" />
+</p>
