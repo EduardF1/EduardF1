@@ -67,7 +67,8 @@ data       PostgreSQL with pgvector, MS SQL, MySQL
 ops        Docker, GitHub Actions, Azure DevOps, PowerShell
 observe    Datadog, Prometheus, Grafana, OpenTelemetry
 test       Playwright, JUnit, PHPUnit, Vitest, Robot Framework
-ai         Claude Code, OpenAI Codex, Google Antigravity, DeepSeek, OpenRouter, Ollama
+ai         Claude Code, OpenAI Codex, Google Antigravity,
+           DeepSeek, OpenRouter, Ollama
 ```
 
 ## How I work
