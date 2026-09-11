@@ -2,7 +2,7 @@
 
 Full-stack and platform engineer in Aarhus, Denmark. Primary stack: C#/.NET and TypeScript/React, plus cloud infrastructure and agentic AI tooling. I run a home AI estate on an RTX 5090: a reviewed multi-agent bus, mechanical quality gates, and a local model fleet.
 
-**276 merged pull requests across 37 upstream projects** - angular, eslint, jest, vite, freeCodeCamp, dotnet/aspnetcore, dotnet/sdk, fastify, hono, react-hook-form, kobalte and more. The forks here are the contribution evidence. I contribute to other people's projects more than my own, which is why the PR count is the number I track, not my own stars.
+**45 merged pull requests across 32 upstream projects** - angular, eslint, jest, vite, freeCodeCamp, dotnet/aspnetcore, dotnet/sdk, fastify, hono, react-hook-form, kobalte and more. The forks here are the contribution evidence. I contribute to other people's projects more than my own, which is why the PR count is the number I track, not my own stars.
 
 **Most of my current work lives in private repositories:**
 
