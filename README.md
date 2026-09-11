@@ -1,105 +1,75 @@
-## Hi, I am Eduard
+```text
+  _____    _                     _
+ | ____|__| |_   _  __ _ _ __ __| |
+ |  _| / _` | | | |/ _` | '__/ _` |
+ | |__| (_| | |_| | (_| | | | (_| |
+ |_____\__,_|\__,_|\__,_|_|  \__,_|
 
-Full-stack and platform engineer in Aarhus, Denmark. Primary stack: C#/.NET and TypeScript/React, plus cloud infrastructure and agentic AI tooling. I run a home AI estate on an RTX 5090: a reviewed multi-agent bus, mechanical quality gates, and a local model fleet.
+ Eduard Fischer-Szava, Aarhus, Denmark
+ full-stack and platform engineer, C#/.NET and TypeScript
+```
 
-**45 merged pull requests across 32 upstream projects** - angular, eslint, jest, vite, freeCodeCamp, dotnet/aspnetcore, dotnet/sdk, fastify, hono, react-hook-form, kobalte and more. The forks here are the contribution evidence. I contribute to other people's projects more than my own, which is why the PR count is the number I track, not my own stars.
+Romanian mother tongue, fluent Danish and English. Nine years in Denmark, five of them shipping software for Danish companies: a national election platform, an energy company's customer self-service platform, a renewable-energy SaaS, and a mission-critical defence suite.
 
-**Most of my current work lives in private repositories:**
+At home I run a small AI estate on one RTX 5090. It is not a demo: a task bus where cloud models cross-review each other's work, mechanical quality gates, a local model fleet, and a control surface I built to watch all of it. The operations layer is PowerShell; the services and MCP servers are TypeScript and Python.
 
-- **OmniControl** - a modular control surface for an AI agent estate: sovereign modules, a reviewed task bus, mechanical quality gates, and a shell where every view renders failure honestly.
-- **A home AI estate** - multi-agent infrastructure running real workloads: semantic memory, cross-audit review gates, benchmarks with a planted-defect suite, and a local model fleet.
-- **The 2021 learning archive** - 56 self-study projects (React, web development, language hands-on) kept as one organized repository, deliberately private.
+```text
+                          operator
+                             |
+                   +---------v---------+
+                   |   A2A task bus    |   every task carries a spec,
+                   |   claim / verdict |   a verifier and a paper trail
+                   +----+---------+----+
+                        |         |
+         +--------------v--+   +--v----------------------+
+         | local fleet     |   | cloud reviewers         |
+         | RTX 5090, Ollama|   | DeepSeek, Kimi, GLM     |
+         | and llama.cpp   |   | a verdict needs 3 of 3  |
+         +--------+--------+   +-----------+-------------+
+                  |                        |
+    +-------------v------------------------v--------------+
+    |  quality gates: review gate, audit gate, boundary   |
+    |  gate, test coverage measured by execution trace    |
+    +-------+------------------+------------------+-------+
+            |                  |                  |
+   +--------v-------+  +-------v--------+  +------v---------+
+   | knowledge vault|  | OmniControl    |  | observability  |
+   | Postgres,      |  | shell + BFF,   |  | Prometheus,    |
+   | pgvector, MCP  |  | 20 modules     |  | Grafana, OTel  |
+   +----------------+  +----------------+  +----------------+
+```
 
-**Public and open for anyone:**
+## Open source
 
-- **University coursework** - two public repositories from the VIA years: `viauc-dai1-s22` and `Android_Exam_Practice`.
+**45 merged pull requests across 32 upstream projects.** Small and precise, mostly docs, types and behaviour fixes: [angular](https://github.com/angular/angular), [eslint](https://github.com/eslint/eslint), [jest](https://github.com/jestjs/jest), [vite](https://github.com/vitejs/vite), [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp), [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore), [dotnet/sdk](https://github.com/dotnet/sdk), [dotnet/EntityFramework.Docs](https://github.com/dotnet/EntityFramework.Docs), [fastify](https://github.com/fastify/fastify), [hono](https://github.com/honojs/hono), [react-hook-form](https://github.com/react-hook-form/react-hook-form), [kobalte](https://github.com/kobaltedev/kobalte), [recharts](https://github.com/recharts/recharts), [MudBlazor](https://github.com/MudBlazor/MudBlazor) and others. The forks on this profile are the evidence trail. I track the merged count rather than stars, because merged upstream work is the number somebody else signed off on.
 
-### Most used languages
+Most of my current code is private by choice: OmniControl (the control surface above), the estate itself, and a 2021 learning archive of 56 self-study projects. Two repositories from the VIA years are public: [`viauc-dai1-s22`](https://github.com/EduardF1/viauc-dai1-s22) and [`Android_Exam_Practice`](https://github.com/EduardF1/Android_Exam_Practice).
 
-<p align="center">
-  <img src="./assets/lang-card.svg" alt="Most used programming languages" width="460" />
-</p>
+## Where I have worked
 
-### Backend
+| When | Where | What |
+| --- | --- | --- |
+| 2026 | Mjølner Informatics, Aarhus | Frontend engineer and consultant on Mit Norlys, the customer self-service platform of Norlys: React 19 and TypeScript in an Nx monorepo, .NET 9 backend-for-frontend on an event-sourced CQRS stack (Marten, Wolverine), the team's Playwright CI foundation, and two live Datadog dashboards |
+| 2024 to 2026 | Netcompany, Aarhus | IT consultant on KOMBIT VALG, Denmark's administrative election platform: C#/.NET and Angular, plus a UI component catalog for STIL's UA.dk |
+| 2021 to 2024 | Greenbyte, Horsens | Software engineer on Kalenda, a renewable-energy SaaS: .NET Core, EF Core and React, and architect of the Flutter mobile app |
+| 2021 to 2022 | Boozt Fashion, Malmö | System engineer on the boozt.com backend in PHP/Symfony |
+| 2021 | Systematic, Aarhus | Junior systems engineer on the SitaWare suite: Java and Angular |
 
-![C#](https://img.shields.io/badge/-C%23-0d1117?style=flat&logo=csharp&logoColor=6ea8ff)&nbsp;
-![.NET](https://img.shields.io/badge/-.NET-0d1117?style=flat&logo=dotnet&logoColor=6ea8ff)&nbsp;
-![Java](https://img.shields.io/badge/-Java-0d1117?style=flat&logo=openjdk&logoColor=6ea8ff)&nbsp;
-![Spring](https://img.shields.io/badge/-Spring-0d1117?style=flat&logo=spring&logoColor=6ea8ff)&nbsp;
-![Python](https://img.shields.io/badge/-Python-0d1117?style=flat&logo=python&logoColor=6ea8ff)&nbsp;
-![FastAPI](https://img.shields.io/badge/-FastAPI-0d1117?style=flat&logo=fastapi&logoColor=6ea8ff)&nbsp;
-![PHP](https://img.shields.io/badge/-PHP-0d1117?style=flat&logo=php&logoColor=6ea8ff)&nbsp;
-![Symfony](https://img.shields.io/badge/-Symfony-0d1117?style=flat&logo=symfony&logoColor=6ea8ff)&nbsp;
-![Hono](https://img.shields.io/badge/-Hono-0d1117?style=flat&logo=hono&logoColor=6ea8ff)&nbsp;
-![Fastify](https://img.shields.io/badge/-Fastify-0d1117?style=flat&logo=fastify&logoColor=6ea8ff)&nbsp;
-![EF Core](https://img.shields.io/badge/-EF%20Core-0d1117?style=flat&logo=dotnet&logoColor=6ea8ff)
+MSc in Technology-Based Business Development, Aarhus University. BSc in Software Technology Engineering, VIA University College.
 
-### Frontend
+## Stack, as it is actually used
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-0d1117?style=flat&logo=typescript&logoColor=6ea8ff)&nbsp;
-![React](https://img.shields.io/badge/-React-0d1117?style=flat&logo=react&logoColor=6ea8ff)&nbsp;
-![Next.js](https://img.shields.io/badge/-Next.js-0d1117?style=flat&logo=nextdotjs&logoColor=6ea8ff)&nbsp;
-![Angular](https://img.shields.io/badge/-Angular-0d1117?style=flat&logo=angular&logoColor=6ea8ff)&nbsp;
-![Vue.js](https://img.shields.io/badge/-Vue.js-0d1117?style=flat&logo=vuedotjs&logoColor=6ea8ff)&nbsp;
-![Blazor](https://img.shields.io/badge/-Blazor-0d1117?style=flat&logo=blazor&logoColor=6ea8ff)&nbsp;
-![Razor](https://img.shields.io/badge/-Razor-0d1117?style=flat&logo=dotnet&logoColor=6ea8ff)&nbsp;
-![Electron](https://img.shields.io/badge/-Electron-0d1117?style=flat&logo=electron&logoColor=6ea8ff)&nbsp;
-![Storybook](https://img.shields.io/badge/-Storybook-0d1117?style=flat&logo=storybook&logoColor=6ea8ff)&nbsp;
-![Vite](https://img.shields.io/badge/-Vite-0d1117?style=flat&logo=vite&logoColor=6ea8ff)
+```text
+backend    C#/.NET, ASP.NET, EF Core   Java   PHP/Symfony   Python/FastAPI
+frontend   TypeScript, React, Angular, Next.js, Electron, Storybook
+mobile     Flutter/Dart
+data       PostgreSQL with pgvector, MS SQL, MySQL
+ops        Docker, GitHub Actions, Azure DevOps, PowerShell
+observe    Datadog, Prometheus, Grafana, OpenTelemetry
+test       Playwright, JUnit, PHPUnit, Vitest, Robot Framework
+ai         Claude Code, OpenAI Codex, Google Antigravity, DeepSeek, OpenRouter, Ollama
+```
 
-### Mobile
+## How I work
 
-![Flutter](https://img.shields.io/badge/-Flutter-0d1117?style=flat&logo=flutter&logoColor=6ea8ff)&nbsp;
-![Dart](https://img.shields.io/badge/-Dart-0d1117?style=flat&logo=dart&logoColor=6ea8ff)
-
-### Data & AI
-
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=6ea8ff)&nbsp;
-![pgvector](https://img.shields.io/badge/-pgvector-0d1117?style=flat&logo=postgresql&logoColor=6ea8ff)&nbsp;
-![MS SQL](https://img.shields.io/badge/-MS%20SQL-0d1117?style=flat&logo=microsoftsqlserver&logoColor=6ea8ff)&nbsp;
-![MySQL](https://img.shields.io/badge/-MySQL-0d1117?style=flat&logo=mysql&logoColor=6ea8ff)&nbsp;
-![Oracle](https://img.shields.io/badge/-Oracle-0d1117?style=flat&logo=oracle&logoColor=6ea8ff)&nbsp;
-![MongoDB](https://img.shields.io/badge/-MongoDB-0d1117?style=flat&logo=mongodb&logoColor=6ea8ff)&nbsp;
-![Neo4j](https://img.shields.io/badge/-Neo4j-0d1117?style=flat&logo=neo4j&logoColor=6ea8ff)&nbsp;
-![RAG](https://img.shields.io/badge/-RAG-0d1117?style=flat&logo=openai&logoColor=6ea8ff)&nbsp;
-![MCP](https://img.shields.io/badge/-MCP-0d1117?style=flat&logoColor=6ea8ff)&nbsp;
-![Ollama](https://img.shields.io/badge/-Ollama-0d1117?style=flat&logo=ollama&logoColor=6ea8ff)&nbsp;
-![Claude Code](https://img.shields.io/badge/-Claude%20Code-0d1117?style=flat&logo=anthropic&logoColor=6ea8ff)&nbsp;
-![DeepSeek](https://img.shields.io/badge/-DeepSeek-0d1117?style=flat&logo=deepseek&logoColor=6ea8ff)&nbsp;
-![OpenRouter](https://img.shields.io/badge/-OpenRouter-0d1117?style=flat&logoColor=6ea8ff)
-
-### DevOps & infrastructure
-
-![Docker](https://img.shields.io/badge/-Docker-0d1117?style=flat&logo=docker&logoColor=6ea8ff)&nbsp;
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-0d1117?style=flat&logo=githubactions&logoColor=6ea8ff)&nbsp;
-![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0d1117?style=flat&logo=azuredevops&logoColor=6ea8ff)&nbsp;
-![Jenkins](https://img.shields.io/badge/-Jenkins-0d1117?style=flat&logo=jenkins&logoColor=6ea8ff)&nbsp;
-![Datadog](https://img.shields.io/badge/-Datadog-0d1117?style=flat&logo=datadog&logoColor=6ea8ff)&nbsp;
-![Prometheus](https://img.shields.io/badge/-Prometheus-0d1117?style=flat&logo=prometheus&logoColor=6ea8ff)&nbsp;
-![Grafana](https://img.shields.io/badge/-Grafana-0d1117?style=flat&logo=grafana&logoColor=6ea8ff)&nbsp;
-![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-0d1117?style=flat&logo=opentelemetry&logoColor=6ea8ff)&nbsp;
-![Splunk](https://img.shields.io/badge/-Splunk-0d1117?style=flat&logo=splunk&logoColor=6ea8ff)&nbsp;
-![Git](https://img.shields.io/badge/-Git-0d1117?style=flat&logo=git&logoColor=6ea8ff)&nbsp;
-![pnpm](https://img.shields.io/badge/-pnpm-0d1117?style=flat&logo=pnpm&logoColor=6ea8ff)
-
-### Testing & quality
-
-![Playwright](https://img.shields.io/badge/-Playwright-0d1117?style=flat&logo=playwright&logoColor=6ea8ff)&nbsp;
-![xUnit](https://img.shields.io/badge/-xUnit-0d1117?style=flat&logo=dotnet&logoColor=6ea8ff)&nbsp;
-![Cypress](https://img.shields.io/badge/-Cypress-0d1117?style=flat&logo=cypress&logoColor=6ea8ff)&nbsp;
-![Selenium](https://img.shields.io/badge/-Selenium-0d1117?style=flat&logo=selenium&logoColor=6ea8ff)&nbsp;
-![Vitest](https://img.shields.io/badge/-Vitest-0d1117?style=flat&logo=vitest&logoColor=6ea8ff)&nbsp;
-![JUnit](https://img.shields.io/badge/-JUnit-0d1117?style=flat&logo=junit5&logoColor=6ea8ff)&nbsp;
-![PHPUnit](https://img.shields.io/badge/-PHPUnit-0d1117?style=flat&logo=php&logoColor=6ea8ff)&nbsp;
-![Robot Framework](https://img.shields.io/badge/-Robot%20Framework-0d1117?style=flat&logo=robotframework&logoColor=6ea8ff)&nbsp;
-![ESLint](https://img.shields.io/badge/-ESLint-0d1117?style=flat&logo=eslint&logoColor=6ea8ff)
-
-### GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-stats-deploy-eduardf1s-projects.vercel.app/api?username=EduardF1&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&hide_rank=true&hide=stars,issues" alt="GitHub stats" height="165" />
-</p>
-
-### What I care about
-
-Measured work over vibes. Every change I ship carries a test record; every claim of done is peer-reviewed before it counts. I am currently open to senior full-stack and platform roles in Aarhus, open to remote.
+Measured work over vibes. Every change I ship carries a test record, and a claim of done is peer-reviewed before it counts. A post-mortem that only looks at the losses gets a paired win/loss count before it is allowed to become a rule, because a feature every failure shares is usually one the successes share too.
