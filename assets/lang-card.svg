@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="332" viewBox="0 0 460 332" role="img" aria-label="Most used programming languages">
+  <rect width="460" height="332" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="16" y="22" font-family="Consolas, Menlo, monospace" font-size="13" fill="#58a6ff">$ du -sh languages/ (48 own repos incl. private, no forks, no vendored trees, 2026-09-11)</text>
+<text x="16" y="44" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">TypeScript</text>
+<text x="444" y="44" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">28.5%</text>
+<rect x="16" y="50" width="122.1" height="7" rx="3.5" fill="#3178c6"/>
+<text x="16" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">JavaScript</text>
+<text x="444" y="78" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">25.7%</text>
+<rect x="16" y="84" width="110.2" height="7" rx="3.5" fill="#f1e05a"/>
+<text x="16" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">PowerShell</text>
+<text x="444" y="112" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">17.3%</text>
+<rect x="16" y="118" width="74.1" height="7" rx="3.5" fill="#012456"/>
+<text x="16" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">C++</text>
+<text x="444" y="146" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">8.5%</text>
+<rect x="16" y="152" width="36.5" height="7" rx="3.5" fill="#f34b7d"/>
+<text x="16" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">Python</text>
+<text x="444" y="180" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">7.6%</text>
+<rect x="16" y="186" width="32.5" height="7" rx="3.5" fill="#3572A5"/>
+<text x="16" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">TSQL</text>
+<text x="444" y="214" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">4.3%</text>
+<rect x="16" y="220" width="18.4" height="7" rx="3.5" fill="#e38c00"/>
+<text x="16" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">Java</text>
+<text x="444" y="248" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">4.2%</text>
+<rect x="16" y="254" width="18.1" height="7" rx="3.5" fill="#b07219"/>
+<text x="16" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">C</text>
+<text x="444" y="282" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">3.8%</text>
+<rect x="16" y="288" width="16.1" height="7" rx="3.5" fill="#555555"/>
+</svg>
