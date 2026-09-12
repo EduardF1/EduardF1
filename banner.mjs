@@ -16,8 +16,12 @@
 // single staggered fade. No blinking, nothing that keeps moving after you have read it.
 //
 // Run: node banner.mjs > assets/banner.svg
-const WIDTH = 880
-const HEIGHT = 180
+// The same header at two sizes: 880x180 for the GitHub README, and 1128x191 for the LinkedIn page
+// banner, which is the size LinkedIn asks for. One script so the two surfaces cannot drift.
+//   node banner.mjs                -> README banner
+//   node banner.mjs 1128 191       -> LinkedIn cover
+const WIDTH = Number(process.argv[2] ?? 880)
+const HEIGHT = Number(process.argv[3] ?? 180)
 const PAD = 34
 const MONO = 'ui-monospace, SFMono-Regular, Consolas, Menlo, monospace'
 const SANS = "'Segoe UI', Helvetica, Arial, sans-serif"
@@ -32,7 +36,7 @@ const LAYERS = [
   ['api', 'ASP.NET Core, Node'],
   ['domain', 'event sourcing, CQRS'],
   ['data', 'Postgres, pgvector'],
-  ['platform', 'Docker, CI, one RTX 5090'],
+  ['platform', 'Docker, CI, observability'],
 ]
 
 const COLUMN_X = 470
@@ -64,7 +68,7 @@ const tagline = LINES.map((line, index) => `  <text x="${PAD}" y="${128 + index 
 
 process.stdout.write(`<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}"
      viewBox="0 0 ${WIDTH} ${HEIGHT}" role="img"
-     aria-label="Full-stack and platform engineer in Aarhus, Denmark. The stack from the screen down: interface in React, Next.js and Angular; api in ASP.NET Core and Node; domain built on event sourcing and CQRS; data in Postgres with pgvector; platform on Docker, CI and one RTX 5090.">
+     aria-label="Full-stack and platform engineer in Aarhus, Denmark. The stack from the screen down: interface in React, Next.js and Angular; api in ASP.NET Core and Node; domain built on event sourcing and CQRS; data in Postgres with pgvector; platform on Docker, CI and observability.">
   <style>
     .eyebrow  { font-family: ${MONO}; font-size: 9.5px; fill: #6f7f95; letter-spacing: 2.4px; }
     .headline { font-family: ${SANS}; font-size: 19.5px; font-weight: 600; fill: #e6edf3; letter-spacing: -0.2px; }

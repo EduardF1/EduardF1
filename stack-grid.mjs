@@ -66,7 +66,10 @@ for (const [category, heading] of GROUPS) {
     // exactly that.
     rows.push(images.slice(start, start + perRow).join('&nbsp;'))
   }
-  blocks.push(`<strong>${heading}</strong>&nbsp;<sub>${items.length}</sub><br />${rows.join('<br />')}`)
+  // The heading carries no count. A number beside a category invites the reader to compare the
+  // categories with each other, which says nothing: 24 backend logos against 3 mobile ones is a
+  // fact about how the list was grouped, not about the work.
+  blocks.push(`<strong>${heading}</strong><br />${rows.join('<br />')}`)
 }
 
 // No blank line ANYWHERE inside the div. A blank line hands the contents back to the markdown
