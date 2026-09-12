@@ -1,0 +1,530 @@
+[
+ {
+  "slug": "csharp",
+  "name": "C#",
+  "category": "backend",
+  "icon": "csharp"
+ },
+ {
+  "slug": "dotnet",
+  "name": ".NET",
+  "category": "backend",
+  "icon": "dotnetcore"
+ },
+ {
+  "slug": "java",
+  "name": "Java",
+  "category": "backend",
+  "icon": "java"
+ },
+ {
+  "slug": "spring",
+  "name": "Spring",
+  "category": "backend",
+  "icon": "spring"
+ },
+ {
+  "slug": "php",
+  "name": "PHP",
+  "category": "backend",
+  "icon": "php"
+ },
+ {
+  "slug": "nodejs",
+  "name": "Node.js",
+  "category": "backend",
+  "icon": "nodejs"
+ },
+ {
+  "slug": "express",
+  "name": "Express",
+  "category": "backend",
+  "icon": "express"
+ },
+ {
+  "slug": "python",
+  "name": "Python",
+  "category": "backend",
+  "icon": "python"
+ },
+ {
+  "slug": "scala",
+  "name": "Scala",
+  "category": "backend",
+  "icon": "scala"
+ },
+ {
+  "slug": "haskell",
+  "name": "Haskell",
+  "category": "backend",
+  "icon": "haskell"
+ },
+ {
+  "slug": "cpp",
+  "name": "C++",
+  "category": "backend",
+  "icon": "cplusplus"
+ },
+ {
+  "slug": "doctrine",
+  "name": "Doctrine ORM",
+  "category": "backend",
+  "icon": "https://github.com/doctrine.png?size=128"
+ },
+ {
+  "slug": "symfony",
+  "name": "Symfony",
+  "category": "backend",
+  "icon": "symfony"
+ },
+ {
+  "slug": "c",
+  "name": "C",
+  "category": "backend",
+  "icon": "c"
+ },
+ {
+  "slug": "aspnet",
+  "name": "ASP.NET",
+  "category": "backend",
+  "icon": "https://github.com/dotnet.png?size=128"
+ },
+ {
+  "slug": "ef-core",
+  "name": "Entity Framework Core",
+  "category": "backend",
+  "icon": "https://github.com/dotnet.png?size=128"
+ },
+ {
+  "slug": "jboss",
+  "name": "JBoss / WildFly",
+  "category": "backend",
+  "icon": "https://github.com/wildfly.png?size=128"
+ },
+ {
+  "slug": "hibernate",
+  "name": "Hibernate",
+  "category": "backend",
+  "icon": "hibernate"
+ },
+ {
+  "slug": "tomcat",
+  "name": "Apache Tomcat",
+  "category": "backend",
+  "icon": "tomcat"
+ },
+ {
+  "slug": "jsp",
+  "name": "JSP",
+  "category": "backend",
+  "icon": "java"
+ },
+ {
+  "slug": "jax-rs",
+  "name": "JAX-RS",
+  "category": "backend",
+  "icon": "https://github.com/jakartaee.png?size=128"
+ },
+ {
+  "slug": "jax-ws",
+  "name": "JAX-WS",
+  "category": "backend",
+  "icon": "https://github.com/jakartaee.png?size=128"
+ },
+ {
+  "slug": "guzzle",
+  "name": "Guzzle",
+  "category": "backend",
+  "icon": "https://github.com/guzzle.png?size=128"
+ },
+ {
+  "slug": "lexik-jwt",
+  "name": "Lexik JWT",
+  "category": "backend",
+  "icon": null
+ },
+ {
+  "slug": "nextjs",
+  "name": "Next.js",
+  "category": "frontend",
+  "icon": "nextjs"
+ },
+ {
+  "slug": "angular",
+  "name": "Angular",
+  "category": "frontend",
+  "icon": "angular"
+ },
+ {
+  "slug": "typescript",
+  "name": "TypeScript",
+  "category": "frontend",
+  "icon": "typescript"
+ },
+ {
+  "slug": "react",
+  "name": "React",
+  "category": "frontend",
+  "icon": "react"
+ },
+ {
+  "slug": "redux",
+  "name": "Redux",
+  "category": "frontend",
+  "icon": "redux"
+ },
+ {
+  "slug": "twig",
+  "name": "Twig",
+  "category": "frontend",
+  "icon": "https://github.com/twigphp.png?size=128"
+ },
+ {
+  "slug": "rxjs",
+  "name": "RxJS",
+  "category": "frontend",
+  "icon": "rxjs"
+ },
+ {
+  "slug": "vue",
+  "name": "Vue.js",
+  "category": "frontend",
+  "icon": "vuejs"
+ },
+ {
+  "slug": "jquery",
+  "name": "jQuery",
+  "category": "frontend",
+  "icon": "jquery"
+ },
+ {
+  "slug": "razor",
+  "name": "Razor",
+  "category": "frontend",
+  "icon": "dot-net"
+ },
+ {
+  "slug": "blazor",
+  "name": "Blazor",
+  "category": "frontend",
+  "icon": "dot-net"
+ },
+ {
+  "slug": "javascript",
+  "name": "JavaScript",
+  "category": "frontend",
+  "icon": "javascript"
+ },
+ {
+  "slug": "angular-material",
+  "name": "Angular Material",
+  "category": "frontend",
+  "icon": "https://cdn.simpleicons.org/angular"
+ },
+ {
+  "slug": "android",
+  "name": "Android",
+  "category": "mobile",
+  "icon": "android"
+ },
+ {
+  "slug": "flutter",
+  "name": "Flutter",
+  "category": "mobile",
+  "icon": "flutter"
+ },
+ {
+  "slug": "dart",
+  "name": "Dart",
+  "category": "mobile",
+  "icon": "dart"
+ },
+ {
+  "slug": "mssql",
+  "name": "MS SQL",
+  "category": "data",
+  "icon": "microsoftsqlserver"
+ },
+ {
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "category": "data",
+  "icon": "postgresql"
+ },
+ {
+  "slug": "mysql",
+  "name": "MySQL",
+  "category": "data",
+  "icon": "mysql"
+ },
+ {
+  "slug": "mongodb",
+  "name": "MongoDB",
+  "category": "data",
+  "icon": "mongodb"
+ },
+ {
+  "slug": "firebase",
+  "name": "Firebase",
+  "category": "data",
+  "icon": "firebase"
+ },
+ {
+  "slug": "mongoose",
+  "name": "Mongoose",
+  "category": "data",
+  "icon": "https://github.com/Automattic.png?size=128"
+ },
+ {
+  "slug": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "category": "data",
+  "icon": "mongodb"
+ },
+ {
+  "slug": "realm",
+  "name": "Realm",
+  "category": "data",
+  "icon": "https://github.com/realm.png?size=128"
+ },
+ {
+  "slug": "neo4j",
+  "name": "Neo4j",
+  "category": "data",
+  "icon": "neo4j"
+ },
+ {
+  "slug": "xunit",
+  "name": "xUnit",
+  "category": "testing",
+  "icon": "https://github.com/xunit.png?size=128"
+ },
+ {
+  "slug": "cucumber",
+  "name": "Cucumber",
+  "category": "testing",
+  "icon": "https://github.com/cucumber.png?size=128"
+ },
+ {
+  "slug": "selenium",
+  "name": "Selenium",
+  "category": "testing",
+  "icon": "selenium"
+ },
+ {
+  "slug": "playwright",
+  "name": "Playwright",
+  "category": "testing",
+  "icon": "playwright"
+ },
+ {
+  "slug": "cypress",
+  "name": "Cypress",
+  "category": "testing",
+  "icon": "cypressio"
+ },
+ {
+  "slug": "robot-framework",
+  "name": "Robot Framework",
+  "category": "testing",
+  "icon": "https://github.com/robotframework.png?size=128"
+ },
+ {
+  "slug": "junit",
+  "name": "JUnit",
+  "category": "testing",
+  "icon": "junit"
+ },
+ {
+  "slug": "phpunit",
+  "name": "PHPUnit",
+  "category": "testing",
+  "icon": "/logos/phpunit.svg"
+ },
+ {
+  "slug": "behat",
+  "name": "Behat",
+  "category": "testing",
+  "icon": "https://github.com/Behat.png?size=128"
+ },
+ {
+  "slug": "mockery",
+  "name": "Mockery",
+  "category": "testing",
+  "icon": "https://github.com/mockery.png?size=128"
+ },
+ {
+  "slug": "karma",
+  "name": "Karma",
+  "category": "testing",
+  "icon": "karma"
+ },
+ {
+  "slug": "jasmine",
+  "name": "Jasmine",
+  "category": "testing",
+  "icon": "jasmine"
+ },
+ {
+  "slug": "jest",
+  "name": "Jest",
+  "category": "testing",
+  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+ },
+ {
+  "slug": "docker",
+  "name": "Docker",
+  "category": "ops",
+  "icon": "docker"
+ },
+ {
+  "slug": "git",
+  "name": "Git",
+  "category": "ops",
+  "icon": "git"
+ },
+ {
+  "slug": "azure-devops",
+  "name": "Azure DevOps",
+  "category": "ops",
+  "icon": "azuredevops"
+ },
+ {
+  "slug": "jenkins",
+  "name": "Jenkins",
+  "category": "ops",
+  "icon": "jenkins"
+ },
+ {
+  "slug": "splunk",
+  "name": "Splunk",
+  "category": "ops",
+  "icon": "https://github.com/splunk.png?size=128"
+ },
+ {
+  "slug": "kubernetes",
+  "name": "Kubernetes",
+  "category": "ops",
+  "icon": "kubernetes"
+ },
+ {
+  "slug": "terraform",
+  "name": "Terraform",
+  "category": "ops",
+  "icon": "terraform"
+ },
+ {
+  "slug": "ansible",
+  "name": "Ansible",
+  "category": "ops",
+  "icon": "ansible"
+ },
+ {
+  "slug": "powershell",
+  "name": "PowerShell",
+  "category": "ops",
+  "icon": "powershell"
+ },
+ {
+  "slug": "bash",
+  "name": "Bash",
+  "category": "ops",
+  "icon": "bash"
+ },
+ {
+  "slug": "cmd",
+  "name": "Windows CMD",
+  "category": "ops",
+  "icon": null
+ },
+ {
+  "slug": "teamcity",
+  "name": "TeamCity",
+  "category": "ops",
+  "icon": "https://github.com/JetBrains.png?size=128"
+ },
+ {
+  "slug": "circleci",
+  "name": "CircleCI",
+  "category": "ops",
+  "icon": "https://github.com/circleci.png?size=128"
+ },
+ {
+  "slug": "redis",
+  "name": "Redis",
+  "category": "data",
+  "icon": "redis"
+ },
+ {
+  "slug": "kafka",
+  "name": "Apache Kafka",
+  "category": "data",
+  "icon": "apachekafka"
+ },
+ {
+  "slug": "postman",
+  "name": "Postman",
+  "category": "testing",
+  "icon": "postman"
+ },
+ {
+  "slug": "vscode",
+  "name": "VS Code",
+  "category": "ops",
+  "icon": "vscode"
+ },
+ {
+  "slug": "visualstudio",
+  "name": "Visual Studio",
+  "category": "ops",
+  "icon": "visualstudio"
+ },
+ {
+  "slug": "rider",
+  "name": "JetBrains Rider",
+  "category": "ops",
+  "icon": "https://github.com/JetBrains.png?size=128"
+ },
+ {
+  "slug": "webstorm",
+  "name": "WebStorm",
+  "category": "ops",
+  "icon": "https://github.com/JetBrains.png?size=128"
+ },
+ {
+  "slug": "android-studio",
+  "name": "Android Studio",
+  "category": "ops",
+  "icon": "androidstudio"
+ },
+ {
+  "slug": "jetbrains-toolbox",
+  "name": "JetBrains Toolbox",
+  "category": "ops",
+  "icon": "https://github.com/JetBrains.png?size=128"
+ },
+ {
+  "slug": "maven",
+  "name": "Apache Maven",
+  "category": "ops",
+  "icon": "maven"
+ },
+ {
+  "slug": "gradle",
+  "name": "Gradle",
+  "category": "ops",
+  "icon": "gradle"
+ },
+ {
+  "slug": "bitbucket",
+  "name": "Bitbucket",
+  "category": "ops",
+  "icon": "bitbucket"
+ },
+ {
+  "slug": "jira",
+  "name": "Jira",
+  "category": "ops",
+  "icon": "jira"
+ }
+]

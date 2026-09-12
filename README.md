@@ -1,128 +1,105 @@
-```text
-  _____    _                     _
- | ____|__| |_   _  __ _ _ __ __| |
- |  _| / _` | | | |/ _` | '__/ _` |
- | |__| (_| | |_| | (_| | | | (_| |
- |_____\__,_|\__,_|\__,_|_|  \__,_|
+<div align="center">
 
- $ whoami
- Eduard Fischer-Szava, Aarhus, Denmark
- full-stack and platform engineer, C#/.NET and TypeScript
- Romanian (mother tongue), Danish and English (fluent)
-```
+<img src="./assets/banner.svg" alt="Full-stack and platform engineer in Aarhus, Denmark. The stack from the screen down: interface, api, domain, data, platform." width="880" />
 
-Nine years in Denmark, five of them shipping software for Danish companies: a national
-election platform, an energy company's customer self-service platform, a renewable-energy
-SaaS and a mission-critical defence suite.
+</div>
 
-**Now** frontend engineer and consultant at Mjølner Informatics, on Mit Norlys, the customer
-self-service platform of Norlys. React 19 and TypeScript in an Nx monorepo, a .NET 9
-backend-for-frontend on an event-sourced CQRS stack, and the team's Playwright CI foundation.
+## Measured work over vibes
 
-**Open source** 45 merged pull requests across 32 upstream projects, among them
+I build things that refuse to lie about themselves.
+
+That sounds like a slogan, so here is what it actually costs. A salary model I wrote this year
+returns `Maybe<T>` and answers **unknown** for two of three figures, because their sources never
+recorded whether pension was included, and a tidier chart would have invented the difference. A
+renderer in the same repo throws rather than draw an arrow it cannot route, because an arrow touching
+a box it has no relationship with is worse than a missing arrow. The cards below are static files
+rather than calls to a stats service, because a service that 503s leaves a broken image on this page
+and a file cannot.
+
+The pattern underneath all three: **a check that cannot fail proves nothing**, so I would rather ship
+a visible gap than an invisible guess.
+
+<div align="center">
+
+<img src="./assets/grade-card.svg" alt="GitHub statistics over the last twelve months: total commits, pull requests, reviews, issues, repositories contributed to, and an overall grade" width="49%" />
+<img src="./assets/lang-card.svg" alt="Most used programming languages, measured from GitHub byte counts across public and private repositories, forks and vendored trees excluded" width="49%" />
+
+</div>
+
+## The stack
+
+Every logo below is a local file with its name on hover. The list, the order and the grouping come
+from the same `tech.ts` that drives the skills section of
+[eduardfischer.dev](https://eduardfischer.dev), so the two cannot drift apart.
+
+<!-- STACK:START -->
+
+<div align="center">
+<strong>Backend</strong>&nbsp;<sub>24</sub><br /><img src="assets/tiles/csharp.svg" alt="C#" title="C#" width="36" height="36" />&nbsp;<img src="assets/tiles/dotnet.svg" alt=".NET" title=".NET" width="36" height="36" />&nbsp;<img src="assets/tiles/java.svg" alt="Java" title="Java" width="36" height="36" />&nbsp;<img src="assets/tiles/spring.svg" alt="Spring" title="Spring" width="36" height="36" />&nbsp;<img src="assets/tiles/php.svg" alt="PHP" title="PHP" width="36" height="36" />&nbsp;<img src="assets/tiles/nodejs.svg" alt="Node.js" title="Node.js" width="36" height="36" />&nbsp;<img src="assets/tiles/express.svg" alt="Express" title="Express" width="36" height="36" />&nbsp;<img src="assets/tiles/python.svg" alt="Python" title="Python" width="36" height="36" />&nbsp;<img src="assets/tiles/scala.svg" alt="Scala" title="Scala" width="36" height="36" />&nbsp;<img src="assets/tiles/haskell.svg" alt="Haskell" title="Haskell" width="36" height="36" />&nbsp;<img src="assets/tiles/cpp.svg" alt="C++" title="C++" width="36" height="36" />&nbsp;<img src="assets/tiles/doctrine.svg" alt="Doctrine ORM" title="Doctrine ORM" width="36" height="36" />&nbsp;<img src="assets/tiles/symfony.svg" alt="Symfony" title="Symfony" width="36" height="36" />&nbsp;<img src="assets/tiles/c.svg" alt="C" title="C" width="36" height="36" />&nbsp;<img src="assets/tiles/aspnet.svg" alt="ASP.NET" title="ASP.NET" width="36" height="36" />&nbsp;<img src="assets/tiles/ef-core.svg" alt="Entity Framework Core" title="Entity Framework Core" width="36" height="36" />&nbsp;<img src="assets/tiles/jboss.svg" alt="JBoss / WildFly" title="JBoss / WildFly" width="36" height="36" />&nbsp;<img src="assets/tiles/hibernate.svg" alt="Hibernate" title="Hibernate" width="36" height="36" />&nbsp;<img src="assets/tiles/tomcat.svg" alt="Apache Tomcat" title="Apache Tomcat" width="36" height="36" />&nbsp;<img src="assets/tiles/jsp.svg" alt="JSP" title="JSP" width="36" height="36" />&nbsp;<img src="assets/tiles/jax-rs.svg" alt="JAX-RS" title="JAX-RS" width="36" height="36" />&nbsp;<img src="assets/tiles/jax-ws.svg" alt="JAX-WS" title="JAX-WS" width="36" height="36" />&nbsp;<img src="assets/tiles/guzzle.svg" alt="Guzzle" title="Guzzle" width="36" height="36" />&nbsp;<img src="assets/tiles/lexik-jwt.svg" alt="Lexik JWT" title="Lexik JWT" width="36" height="36" /><br /><br />
+<strong>Frontend</strong>&nbsp;<sub>13</sub><br /><img src="assets/tiles/nextjs.svg" alt="Next.js" title="Next.js" width="36" height="36" />&nbsp;<img src="assets/tiles/angular.svg" alt="Angular" title="Angular" width="36" height="36" />&nbsp;<img src="assets/tiles/typescript.svg" alt="TypeScript" title="TypeScript" width="36" height="36" />&nbsp;<img src="assets/tiles/react.svg" alt="React" title="React" width="36" height="36" />&nbsp;<img src="assets/tiles/redux.svg" alt="Redux" title="Redux" width="36" height="36" />&nbsp;<img src="assets/tiles/twig.svg" alt="Twig" title="Twig" width="36" height="36" />&nbsp;<img src="assets/tiles/rxjs.svg" alt="RxJS" title="RxJS" width="36" height="36" />&nbsp;<img src="assets/tiles/vue.svg" alt="Vue.js" title="Vue.js" width="36" height="36" />&nbsp;<img src="assets/tiles/jquery.svg" alt="jQuery" title="jQuery" width="36" height="36" />&nbsp;<img src="assets/tiles/razor.svg" alt="Razor" title="Razor" width="36" height="36" />&nbsp;<img src="assets/tiles/blazor.svg" alt="Blazor" title="Blazor" width="36" height="36" />&nbsp;<img src="assets/tiles/javascript.svg" alt="JavaScript" title="JavaScript" width="36" height="36" />&nbsp;<img src="assets/tiles/angular-material.svg" alt="Angular Material" title="Angular Material" width="36" height="36" /><br /><br />
+<strong>Mobile</strong>&nbsp;<sub>3</sub><br /><img src="assets/tiles/android.svg" alt="Android" title="Android" width="36" height="36" />&nbsp;<img src="assets/tiles/flutter.svg" alt="Flutter" title="Flutter" width="36" height="36" />&nbsp;<img src="assets/tiles/dart.svg" alt="Dart" title="Dart" width="36" height="36" /><br /><br />
+<strong>Data</strong>&nbsp;<sub>11</sub><br /><img src="assets/tiles/mssql.svg" alt="MS SQL" title="MS SQL" width="36" height="36" />&nbsp;<img src="assets/tiles/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="36" height="36" />&nbsp;<img src="assets/tiles/mysql.svg" alt="MySQL" title="MySQL" width="36" height="36" />&nbsp;<img src="assets/tiles/mongodb.svg" alt="MongoDB" title="MongoDB" width="36" height="36" />&nbsp;<img src="assets/tiles/firebase.svg" alt="Firebase" title="Firebase" width="36" height="36" />&nbsp;<img src="assets/tiles/mongoose.svg" alt="Mongoose" title="Mongoose" width="36" height="36" />&nbsp;<img src="assets/tiles/mongodb-atlas.svg" alt="MongoDB Atlas" title="MongoDB Atlas" width="36" height="36" />&nbsp;<img src="assets/tiles/realm.svg" alt="Realm" title="Realm" width="36" height="36" />&nbsp;<img src="assets/tiles/neo4j.svg" alt="Neo4j" title="Neo4j" width="36" height="36" />&nbsp;<img src="assets/tiles/redis.svg" alt="Redis" title="Redis" width="36" height="36" />&nbsp;<img src="assets/tiles/kafka.svg" alt="Apache Kafka" title="Apache Kafka" width="36" height="36" /><br /><br />
+<strong>Quality</strong>&nbsp;<sub>14</sub><br /><img src="assets/tiles/xunit.svg" alt="xUnit" title="xUnit" width="36" height="36" />&nbsp;<img src="assets/tiles/cucumber.svg" alt="Cucumber" title="Cucumber" width="36" height="36" />&nbsp;<img src="assets/tiles/selenium.svg" alt="Selenium" title="Selenium" width="36" height="36" />&nbsp;<img src="assets/tiles/playwright.svg" alt="Playwright" title="Playwright" width="36" height="36" />&nbsp;<img src="assets/tiles/cypress.svg" alt="Cypress" title="Cypress" width="36" height="36" />&nbsp;<img src="assets/tiles/robot-framework.svg" alt="Robot Framework" title="Robot Framework" width="36" height="36" />&nbsp;<img src="assets/tiles/junit.svg" alt="JUnit" title="JUnit" width="36" height="36" />&nbsp;<img src="assets/tiles/phpunit.svg" alt="PHPUnit" title="PHPUnit" width="36" height="36" />&nbsp;<img src="assets/tiles/behat.svg" alt="Behat" title="Behat" width="36" height="36" />&nbsp;<img src="assets/tiles/mockery.svg" alt="Mockery" title="Mockery" width="36" height="36" />&nbsp;<img src="assets/tiles/karma.svg" alt="Karma" title="Karma" width="36" height="36" />&nbsp;<img src="assets/tiles/jasmine.svg" alt="Jasmine" title="Jasmine" width="36" height="36" />&nbsp;<img src="assets/tiles/jest.svg" alt="Jest" title="Jest" width="36" height="36" />&nbsp;<img src="assets/tiles/postman.svg" alt="Postman" title="Postman" width="36" height="36" /><br /><br />
+<strong>Operations</strong>&nbsp;<sub>23</sub><br /><img src="assets/tiles/docker.svg" alt="Docker" title="Docker" width="36" height="36" />&nbsp;<img src="assets/tiles/git.svg" alt="Git" title="Git" width="36" height="36" />&nbsp;<img src="assets/tiles/azure-devops.svg" alt="Azure DevOps" title="Azure DevOps" width="36" height="36" />&nbsp;<img src="assets/tiles/jenkins.svg" alt="Jenkins" title="Jenkins" width="36" height="36" />&nbsp;<img src="assets/tiles/splunk.svg" alt="Splunk" title="Splunk" width="36" height="36" />&nbsp;<img src="assets/tiles/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="36" height="36" />&nbsp;<img src="assets/tiles/terraform.svg" alt="Terraform" title="Terraform" width="36" height="36" />&nbsp;<img src="assets/tiles/ansible.svg" alt="Ansible" title="Ansible" width="36" height="36" />&nbsp;<img src="assets/tiles/powershell.svg" alt="PowerShell" title="PowerShell" width="36" height="36" />&nbsp;<img src="assets/tiles/bash.svg" alt="Bash" title="Bash" width="36" height="36" />&nbsp;<img src="assets/tiles/cmd.svg" alt="Windows CMD" title="Windows CMD" width="36" height="36" />&nbsp;<img src="assets/tiles/teamcity.svg" alt="TeamCity" title="TeamCity" width="36" height="36" />&nbsp;<img src="assets/tiles/circleci.svg" alt="CircleCI" title="CircleCI" width="36" height="36" />&nbsp;<img src="assets/tiles/vscode.svg" alt="VS Code" title="VS Code" width="36" height="36" />&nbsp;<img src="assets/tiles/visualstudio.svg" alt="Visual Studio" title="Visual Studio" width="36" height="36" />&nbsp;<img src="assets/tiles/rider.svg" alt="JetBrains Rider" title="JetBrains Rider" width="36" height="36" />&nbsp;<img src="assets/tiles/webstorm.svg" alt="WebStorm" title="WebStorm" width="36" height="36" />&nbsp;<img src="assets/tiles/android-studio.svg" alt="Android Studio" title="Android Studio" width="36" height="36" />&nbsp;<img src="assets/tiles/jetbrains-toolbox.svg" alt="JetBrains Toolbox" title="JetBrains Toolbox" width="36" height="36" />&nbsp;<img src="assets/tiles/maven.svg" alt="Apache Maven" title="Apache Maven" width="36" height="36" />&nbsp;<img src="assets/tiles/gradle.svg" alt="Gradle" title="Gradle" width="36" height="36" />&nbsp;<img src="assets/tiles/bitbucket.svg" alt="Bitbucket" title="Bitbucket" width="36" height="36" />&nbsp;<img src="assets/tiles/jira.svg" alt="Jira" title="Jira" width="36" height="36" />
+</div>
+
+<!-- STACK:END -->
+
+## Open source
+
+**45 merged pull requests across 32 upstream projects**, among them
 [angular](https://github.com/angular/angular), [eslint](https://github.com/eslint/eslint),
 [jest](https://github.com/jestjs/jest), [vite](https://github.com/vitejs/vite),
 [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) and
-[fastify](https://github.com/fastify/fastify). I track merged, not stars: it is the number
-somebody else signed off on.
+[fastify](https://github.com/fastify/fastify).
 
-**At home** a one-GPU AI estate. A task bus where cloud models cross-review each other's
-work, mechanical quality gates, a local model fleet, and a control surface to watch it.
+I track merged rather than stars. Stars measure whether people liked the idea; merged measures
+whether a maintainer who owns the consequences agreed to carry it.
 
-<p align="center">
-  <img src="./assets/stats-card.svg" alt="GitHub statistics over the last twelve months: contributions, public commits, private contributions, pull requests, repositories contributed to, active days and streaks, own repositories" width="100%" />
-</p>
+## What I build when nobody is paying me
 
-### Work
+One GPU, a task bus, and a rule that no agent marks its own homework.
 
-| When | Where | What |
-| --- | --- | --- |
-| 2026 | Mjølner Informatics, Aarhus | Mit Norlys, above |
-| 2024 to 2026 | Netcompany, Aarhus | KOMBIT VALG, Denmark's administrative election platform: C#/.NET and Angular |
-| 2021 to 2024 | Greenbyte, Horsens | Kalenda, a renewable-energy SaaS: .NET Core, EF Core, React; architect of the Flutter app |
-| 2021 to 2022 | Boozt Fashion, Malmö | boozt.com backend in PHP/Symfony |
-| 2021 | Systematic, Aarhus | SitaWare defence suite: Java and Angular |
+```text
+                                operator
+                                   |
+                         +---------v---------+
+                         |   A2A task bus    |   every task carries a spec,
+                         |   claim / verdict |   a verifier and a paper trail
+                         +----+---------+----+
+                              |         |
+               +--------------v--+   +--v----------------------+
+               | local fleet     |   | cloud reviewers         |
+               | RTX 5090, Ollama|   | DeepSeek, Kimi, GLM     |
+               | llama.cpp, two  |   | a verdict needs 3 of 3  |
+               | Android handsets|   |                         |
+               +--------+--------+   +-----------+-------------+
+                        |                        |
+          +-------------v------------------------v--------------+
+          |  quality gates: review gate, audit gate, boundary   |
+          |  gate, test coverage measured by execution trace    |
+          +-------+------------------+------------------+-------+
+                  |                  |                  |
+         +--------v-------+  +-------v--------+  +------v---------+
+         | knowledge vault|  | OmniControl    |  | observability  |
+         | Postgres,      |  | shell + BFF,   |  | Prometheus,    |
+         | pgvector, MCP  |  | 20+ modules    |  | Grafana, OTel  |
+         +----------------+  +----------------+  +----------------+
+```
 
-MSc in Technology-Based Business Development, Aarhus University.
-BSc in Software Technology Engineering, VIA University College.
+The reviewers disagree on purpose. Last week three of them split three ways on one decision, and the
+split was the useful output: it said the evidence was thinner than any single confident answer would
+have implied.
 
+## Elsewhere
+
+[Case studies and writing](https://eduardfischer.dev) &middot;
 [LinkedIn](https://www.linkedin.com/in/eduard-fischer-szava/) &middot;
-[Case studies](https://eduardfischer.dev) &middot;
-fischer_eduard@yahoo.com &middot; Aarhus, open to Jutland-wide roles
+fischer_eduard@yahoo.com
 
-<details>
-<summary>The full stack, and the languages card</summary>
-
-<p align="center">
-  <img src="./assets/lang-card.svg" alt="Most used programming languages, measured from GitHub byte counts across my own public and private repositories, forks and vendored third-party trees excluded" width="460" />
-</p>
-
-Most of my C# lives in employer repositories, which is why it is missing here and present
-everywhere else on this page. Both cards are static SVGs generated from the GitHub API by
-[`stats-card.mjs`](./stats-card.mjs) and [`lang-card.mjs`](./lang-card.mjs), each stamped with
-the day it was measured. Static on purpose: the hosted stats services 503 under load and the
-image then breaks on the page.
-
-The same six categories and the same order as the skills section of
-[eduardfischer.dev](https://eduardfischer.dev), generated from that site's `src/lib/tech.ts`
-so the two never drift apart.
-
-```text
-backend     C#  .NET  Java  Spring  PHP  Node.js  Express  Python  Scala  Haskell  C++
-            Doctrine ORM  Symfony  C  ASP.NET  Entity Framework Core  JBoss / WildFly
-            Hibernate  Apache Tomcat  JSP  JAX-RS  JAX-WS  Guzzle  Lexik JWT
-frontend    Next.js  Angular  TypeScript  React  Redux  Twig  RxJS  Vue.js  jQuery
-            Razor  Blazor  JavaScript  Angular Material
-mobile      Android  Flutter  Dart
-data        MS SQL  PostgreSQL  MySQL  MongoDB  Firebase  Mongoose  MongoDB Atlas
-            Realm  Neo4j  Redis  Apache Kafka
-quality     xUnit  Cucumber  Selenium  Playwright  Cypress  Robot Framework  JUnit
-            PHPUnit  Behat  Mockery  Karma  Jasmine  Jest  Postman
-operations  Docker  Git  Azure DevOps  Jenkins  Splunk  Kubernetes  Terraform  Ansible
-            PowerShell  Bash  Windows CMD  TeamCity  CircleCI  VS Code  Visual Studio
-            JetBrains Rider  WebStorm  Android Studio  JetBrains Toolbox  Apache Maven
-            Gradle  Bitbucket  Jira
-ai          Claude Code, OpenAI Codex, Google Antigravity, DeepSeek, OpenRouter, Ollama
-```
-
-</details>
-
-<details>
-<summary>How the estate is wired, and how I work</summary>
-
-One RTX 5090, not a demo. Operations in PowerShell; services and MCP servers in TypeScript
-and Python.
-
-```text
-                          operator
-                             |
-                   +---------v---------+
-                   |   A2A task bus    |   every task carries a spec,
-                   |   claim / verdict |   a verifier and a paper trail
-                   +----+---------+----+
-                        |         |
-         +--------------v--+   +--v----------------------+
-         | local fleet     |   | cloud reviewers         |
-         | RTX 5090, Ollama|   | DeepSeek, Kimi, GLM     |
-         | llama.cpp, two  |   | a verdict needs 3 of 3  |
-         | phones          |   |                         |
-         +--------+--------+   +-----------+-------------+
-                  |                        |
-    +-------------v------------------------v--------------+
-    |  quality gates: review gate, audit gate, boundary   |
-    |  gate, test coverage measured by execution trace    |
-    +-------+------------------+------------------+-------+
-            |                  |                  |
-   +--------v-------+  +-------v--------+  +------v---------+
-   | knowledge vault|  | OmniControl    |  | observability  |
-   | Postgres,      |  | shell + BFF,   |  | Prometheus,    |
-   | pgvector, MCP  |  | 20 modules     |  | Grafana, OTel  |
-   +----------------+  +----------------+  +----------------+
-```
-
-Measured work over vibes. Every change I ship carries a test record, and a claim of done is
-peer-reviewed before it counts. A post-mortem that only looks at the losses gets a paired
-win/loss count before it is allowed to become a rule, because a feature every failure shares
-is usually one the successes share too.
-
-</details>
+<sub>Cards are generated by <a href="./grade-card.mjs">grade-card.mjs</a> and
+<a href="./lang-card.mjs">lang-card.mjs</a> from the GitHub API and committed as files, each stamped
+with the day it was measured. The grade formula is printed in the generator rather than hidden, and
+the language card counts only my own repositories, public and private, with forks and vendored trees
+excluded. Most of my C# lives in employer repositories, which is why it is quiet here and loud
+everywhere else.</sub>

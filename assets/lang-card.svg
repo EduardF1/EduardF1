@@ -1,28 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="332" viewBox="0 0 460 332" role="img" aria-label="Most used programming languages">
-  <rect width="460" height="332" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="16" y="22" font-family="Consolas, Menlo, monospace" font-size="13" fill="#58a6ff">$ du -sh languages/ (48 own repos incl. private, no forks, no vendored trees, 2026-09-11)</text>
-<text x="16" y="44" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">TypeScript</text>
-<text x="444" y="44" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">28.5%</text>
-<rect x="16" y="50" width="122.1" height="7" rx="3.5" fill="#3178c6"/>
-<text x="16" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">JavaScript</text>
-<text x="444" y="78" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">25.7%</text>
-<rect x="16" y="84" width="110.2" height="7" rx="3.5" fill="#f1e05a"/>
-<text x="16" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">PowerShell</text>
-<text x="444" y="112" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">17.3%</text>
-<rect x="16" y="118" width="74.1" height="7" rx="3.5" fill="#012456"/>
-<text x="16" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">C++</text>
-<text x="444" y="146" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">8.5%</text>
-<rect x="16" y="152" width="36.5" height="7" rx="3.5" fill="#f34b7d"/>
-<text x="16" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">Python</text>
-<text x="444" y="180" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">7.6%</text>
-<rect x="16" y="186" width="32.5" height="7" rx="3.5" fill="#3572A5"/>
-<text x="16" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">TSQL</text>
-<text x="444" y="214" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">4.3%</text>
-<rect x="16" y="220" width="18.4" height="7" rx="3.5" fill="#e38c00"/>
-<text x="16" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">Java</text>
-<text x="444" y="248" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">4.2%</text>
-<rect x="16" y="254" width="18.1" height="7" rx="3.5" fill="#b07219"/>
-<text x="16" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e6edf3">C</text>
-<text x="444" y="282" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#9aa7b4">3.8%</text>
-<rect x="16" y="288" width="16.1" height="7" rx="3.5" fill="#555555"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200" role="img" aria-label="Most used programming languages by byte count across 48 own repositories, public and private, forks and vendored trees excluded, measured 2026-09-12: TypeScript 28.5 percent, JavaScript 25.8 percent, PowerShell 17.3 percent, C++ 8.5 percent, Python 7.6 percent, TSQL 4.3 percent, Java 4.2 percent, C 3.8 percent">
+  <defs>
+    <clipPath id="bar"><rect x="22" y="86" width="456" height="12" rx="6"/></clipPath>
+  </defs>
+  <rect width="500" height="200" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="22" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#58a6ff">Languages by byte count</text>
+  <text x="22" y="52" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e">48 own repos, public and private, measured 2026-09-12</text>
+  <text x="22" y="68" font-family="Consolas, Menlo, monospace" font-size="11" fill="#6f7f95">forks, vendored trees and markup excluded; top 8 shown</text>
+  <g clip-path="url(#bar)">
+  <rect x="22.0" y="86" width="130.0" height="12" fill="#3178c6"/>
+  <rect x="152.0" y="86" width="117.6" height="12" fill="#f1e05a"/>
+  <rect x="269.6" y="86" width="78.9" height="12" fill="#4d6fa8"/>
+  <rect x="348.5" y="86" width="38.9" height="12" fill="#f34b7d"/>
+  <rect x="387.4" y="86" width="34.6" height="12" fill="#3572A5"/>
+  <rect x="422.0" y="86" width="19.6" height="12" fill="#e38c00"/>
+  <rect x="441.6" y="86" width="19.3" height="12" fill="#b07219"/>
+  <rect x="460.8" y="86" width="17.2" height="12" fill="#8b949e"/>
+  </g>
+  <rect x="22" y="114" width="9" height="9" rx="2" fill="#3178c6"/>
+  <text x="38" y="122" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">TypeScript</text>
+  <text x="234" y="122" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">28.5%</text>
+  <rect x="254" y="114" width="9" height="9" rx="2" fill="#f1e05a"/>
+  <text x="270" y="122" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">JavaScript</text>
+  <text x="466" y="122" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">25.8%</text>
+  <rect x="22" y="134" width="9" height="9" rx="2" fill="#4d6fa8"/>
+  <text x="38" y="142" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">PowerShell</text>
+  <text x="234" y="142" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">17.3%</text>
+  <rect x="254" y="134" width="9" height="9" rx="2" fill="#f34b7d"/>
+  <text x="270" y="142" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">C++</text>
+  <text x="466" y="142" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">8.5%</text>
+  <rect x="22" y="154" width="9" height="9" rx="2" fill="#3572A5"/>
+  <text x="38" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">Python</text>
+  <text x="234" y="162" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">7.6%</text>
+  <rect x="254" y="154" width="9" height="9" rx="2" fill="#e38c00"/>
+  <text x="270" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">TSQL</text>
+  <text x="466" y="162" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">4.3%</text>
+  <rect x="22" y="174" width="9" height="9" rx="2" fill="#b07219"/>
+  <text x="38" y="182" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">Java</text>
+  <text x="234" y="182" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">4.2%</text>
+  <rect x="254" y="174" width="9" height="9" rx="2" fill="#8b949e"/>
+  <text x="270" y="182" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#adbac7">C</text>
+  <text x="466" y="182" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#8b949e">3.8%</text>
 </svg>

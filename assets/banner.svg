@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="180"
+     viewBox="0 0 880 180" role="img"
+     aria-label="Full-stack and platform engineer in Aarhus, Denmark. The stack from the screen down: interface in React, Next.js and Angular; api in ASP.NET Core and Node; domain built on event sourcing and CQRS; data in Postgres with pgvector; platform on Docker, CI and one RTX 5090.">
+  <style>
+    .eyebrow  { font-family: ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; font-size: 9.5px; fill: #6f7f95; letter-spacing: 2.4px; }
+    .headline { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 19.5px; font-weight: 600; fill: #e6edf3; letter-spacing: -0.2px; }
+    .tag      { font-family: ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; font-size: 11.5px; fill: #8b949e; }
+    .layer    { font-family: ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; font-size: 10.5px; fill: #adbac7; letter-spacing: 0.5px; }
+    .detail   { font-family: ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; font-size: 10.5px; fill: #6f7f95; }
+    .row, .tag, .headline, .eyebrow, .rule { opacity: 0; animation: in 0.5s ease-out forwards; }
+    .eyebrow  { animation-delay: 0.05s }
+    .headline { animation-delay: 0.15s }
+    .rule     { animation-delay: 0.3s }
+    .row      { animation-name: slide }
+    @keyframes in    { to { opacity: 1 } }
+    @keyframes slide { from { opacity: 0; transform: translateX(6px) } to { opacity: 1; transform: translateX(0) } }
+    .tag { animation-name: in; }
+    @media (prefers-reduced-motion: reduce) {
+      .row, .tag, .headline, .eyebrow, .rule { animation: none; opacity: 1 }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="179" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="34" y="58" class="eyebrow">AARHUS, DENMARK</text>
+  <text x="34" y="90" class="headline">full-stack and platform engineer</text>
+  <rect x="34" y="103" width="46" height="2" rx="1" fill="#7aa8d4" class="rule"/>
+  <text x="34" y="128" class="tag" opacity="1"
+        style="animation-delay:0.50s">measured work over vibes</text>
+  <text x="34" y="145" class="tag" opacity="0.62"
+        style="animation-delay:0.58s">a check that cannot fail proves nothing</text>
+
+  <line x1="430" y1="21" x2="430" y2="159" stroke="#21262d"/>
+  <line x1="456" y1="32" x2="456" y2="148" stroke="#21262d"/>
+  <g class="row" style="animation-delay:0.25s">
+    <rect x="470" y="21" width="376" height="22" rx="4" fill="#10151c" stroke="#21262d"/>
+    <rect x="470" y="21" width="3" height="22" rx="1.5" fill="#7aa8d4" opacity="0.30"/>
+    <circle cx="456" cy="32" r="2" fill="#30363d"/>
+    <text x="486" y="36" class="layer">interface</text>
+    <text x="832" y="36" text-anchor="end" class="detail">React, Next.js, Angular</text>
+  </g>
+  <g class="row" style="animation-delay:0.32s">
+    <rect x="470" y="50" width="376" height="22" rx="4" fill="#10151c" stroke="#21262d"/>
+    <rect x="470" y="50" width="3" height="22" rx="1.5" fill="#7aa8d4" opacity="0.47"/>
+    <circle cx="456" cy="61" r="2" fill="#30363d"/>
+    <text x="486" y="65" class="layer">api</text>
+    <text x="832" y="65" text-anchor="end" class="detail">ASP.NET Core, Node</text>
+  </g>
+  <g class="row" style="animation-delay:0.39s">
+    <rect x="470" y="79" width="376" height="22" rx="4" fill="#10151c" stroke="#21262d"/>
+    <rect x="470" y="79" width="3" height="22" rx="1.5" fill="#7aa8d4" opacity="0.65"/>
+    <circle cx="456" cy="90" r="2" fill="#30363d"/>
+    <text x="486" y="94" class="layer">domain</text>
+    <text x="832" y="94" text-anchor="end" class="detail">event sourcing, CQRS</text>
+  </g>
+  <g class="row" style="animation-delay:0.46s">
+    <rect x="470" y="108" width="376" height="22" rx="4" fill="#10151c" stroke="#21262d"/>
+    <rect x="470" y="108" width="3" height="22" rx="1.5" fill="#7aa8d4" opacity="0.82"/>
+    <circle cx="456" cy="119" r="2" fill="#30363d"/>
+    <text x="486" y="123" class="layer">data</text>
+    <text x="832" y="123" text-anchor="end" class="detail">Postgres, pgvector</text>
+  </g>
+  <g class="row" style="animation-delay:0.53s">
+    <rect x="470" y="137" width="376" height="22" rx="4" fill="#10151c" stroke="#21262d"/>
+    <rect x="470" y="137" width="3" height="22" rx="1.5" fill="#7aa8d4" opacity="1.00"/>
+    <circle cx="456" cy="148" r="2" fill="#30363d"/>
+    <text x="486" y="152" class="layer">platform</text>
+    <text x="832" y="152" text-anchor="end" class="detail">Docker, CI, one RTX 5090</text>
+  </g>
+</svg>
