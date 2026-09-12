@@ -16,13 +16,18 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 
 const START = '<!-- STACK:START -->'
 const END = '<!-- STACK:END -->'
-/**
- * 36px plus the non-breaking space between tiles is 40px per item, so the widest category (Backend,
- * 24) lands at 960px inside GitHub's 1012px content column and every category fits on ONE row. At
- * 40px tiles the same category wrapped to 22 plus an orphan pair, which reads as a mistake rather
- * than as a grid. The number is chosen from that measurement, not from taste.
- */
 const ICON_SIZE = 36
+/**
+ * Rows are broken HERE rather than left to the browser, because the container width is not one
+ * number. The repository page gives the README about 1012px; the PROFILE page, which is where this
+ * file is actually read, gives it around 746px next to the sidebar, and a narrow window gives less
+ * again. Sizing the tiles to fit one row at 1012px produced 21 logos and an orphan three on the
+ * profile, which reads as a mistake rather than as a grid.
+ *
+ * So each category is split into rows of at most MAX_PER_ROW and the remainder is spread evenly
+ * instead of being dumped in a short last row: 24 becomes 12 and 12, never 18 and 6.
+ */
+const MAX_PER_ROW = 12
 
 const GROUPS = [
   ['backend', 'Backend'],
@@ -49,11 +54,19 @@ for (const [category, heading] of GROUPS) {
     // title gives the hover name; alt gives the same text to a screen reader and to anyone whose
     // images do not load.
     return `<img src="${path}" alt="${escape(entry.name)}" title="${escape(entry.name)}" width="${ICON_SIZE}" height="${ICON_SIZE}" />`
-  // ONE LINE, no newline between the images. A newline inside an HTML block makes GitHub's renderer
-  // treat each img as its own block, and 88 logos then stack vertically down 6500px instead of
-  // flowing into a grid. Seen in a render, not guessed: the first version did exactly that.
-  }).filter(Boolean).join('&nbsp;')
-  blocks.push(`<strong>${heading}</strong>&nbsp;<sub>${items.length}</sub><br />${images}`)
+  }).filter(Boolean)
+
+  const rowCount = Math.ceil(images.length / MAX_PER_ROW)
+  const perRow = Math.ceil(images.length / rowCount)
+  const rows = []
+  for (let start = 0; start < images.length; start += perRow) {
+    // ONE LINE per row, no newline between the images. A newline inside an HTML block makes
+    // GitHub's renderer treat each img as its own block, and 88 logos then stack vertically down
+    // 6500px instead of flowing into a grid. Seen in a render, not guessed: the first version did
+    // exactly that.
+    rows.push(images.slice(start, start + perRow).join('&nbsp;'))
+  }
+  blocks.push(`<strong>${heading}</strong>&nbsp;<sub>${items.length}</sub><br />${rows.join('<br />')}`)
 }
 
 // No blank line ANYWHERE inside the div. A blank line hands the contents back to the markdown
